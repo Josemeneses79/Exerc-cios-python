@@ -1,0 +1,5 @@
+#use a string "hello python" e imprima letra por letra apenas a palavra "python"
+texto = "hello python"
+
+for t in texto[6:]:
+    print(t)
