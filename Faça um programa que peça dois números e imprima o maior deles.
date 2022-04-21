@@ -7,4 +7,5 @@ if a > b:
 elif b > a:
     print("O numero maior é: {}!".format(b))
 else:
-    print("Valor não informado")
+    if a == b:
+        print('Os valores são iguais')
