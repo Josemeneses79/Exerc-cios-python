@@ -1,7 +1,7 @@
 #faça um programa que peça um valor e diga se é positivo ou negativo
 valor = float(input('Digite um valor: '))
 if valor <= -1:
-    print('Valor negativo')
-if valor >= 0:
-    print('Valor positivo')
-else:('Valor invalido')
+    print('O valor %5.2f é negativo' %(valor))
+else:
+    print('O valor %5.2f é positivo' %(valor))
+
